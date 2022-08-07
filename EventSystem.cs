@@ -20,7 +20,7 @@ namespace np.events
             get
             {
                 if (default_singleton == null) default_singleton = new EventSystem();
-                return singleton;
+                return default_singleton;
             }
         }
 
